@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        '-//Hibernate/Hibernate Configuration DTD 3.0//EN'
+        'http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd'>
+
+<hibernate-configuration>
+
+    <session-factory>
+        <mapping package='com.keremet.normalizer.ejb.metav2.entity'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicSpace'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicFormStatusRef'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicFormVersionStatus'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicDimension'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicAcronym'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicCsiInstItemCmeasure'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicFormSection'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicCubeDimLinks'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicCubeIndLinks'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicFormVersion'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicSpaceInstance'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicCsiInstanceCmeasure'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicFormCubes'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicSpaceElementSet'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicSpaceElement'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicMeasure'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicCsiAcronymItemMeasure'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicFormVersionData'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicAcronymItemMeasure'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicCsiInstance'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicCalendarBaseEntity'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicPeriodKindlistEntity'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicPeriodEntity'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MdicPeriodTypeEntity'/>
+        <mapping class='com.keremet.normalizer.ejb.metav2.entity.MeasureGroup'/>
+
+
+    </session-factory>
+
+</hibernate-configuration>

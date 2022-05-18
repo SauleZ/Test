@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        '-//Hibernate/Hibernate Configuration DTD 3.0//EN'
+        'http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd'>
+
+<hibernate-configuration>
+
+    <session-factory>
+        <mapping package='com.keremet.normalizer.ejb.class1'/>
+        <mapping class='com.keremet.normalizer.ejb.class1.ClassVersion'/>
+        <mapping class='com.keremet.normalizer.ejb.class1.ClassVersionNew'/>
+        <mapping class='com.keremet.normalizer.ejb.class1.ClassItemMeasure'/>
+        <mapping class='com.keremet.normalizer.ejb.class1.ClassItemTree'/>
+        <mapping class='com.keremet.normalizer.ejb.class1.ClassItemTreeAttr'/>
+        <mapping class='com.keremet.normalizer.ejb.class1.ClassItemTreeAttrId'/>
+        <mapping class='com.keremet.normalizer.ejb.classnew.ClsTreeAttrs'/>
+        <mapping class='com.keremet.normalizer.ejb.classnew.ClsAttrs'/>
+
+    </session-factory>
+
+</hibernate-configuration>

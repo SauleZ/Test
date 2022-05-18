@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        '-//Hibernate/Hibernate Configuration DTD 3.0//EN'
+        'http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd'>
+
+<hibernate-configuration>
+
+    <session-factory>
+        <mapping package='kz.statbase.estat.sdata.online'/>
+        <mapping class='kz.statbase.estat.sdata.online.ClearedDataEntity'/>
+        <mapping class='kz.statbase.estat.sdata.online.ArcClearedData'/>
+        <mapping class='kz.statbase.estat.sdata.online.ReportKey'/>
+        <mapping class='kz.statbase.estat.sdata.online.ReportKeyArc'/>
+        <mapping class='kz.statbase.estat.sdata.online.CleareDataForPeriodLink'/>
+        <mapping class='kz.statbase.estat.sdata.online.DirtyDataForPeriodLink'/>
+        <mapping class='kz.statbase.estat.sdata.online.ArcCleareDataForPeriodLink'/>
+        <mapping class='kz.statbase.estat.sdata.online.ArcDirtyDataForPeriodLink'/>
+        <mapping class='kz.statbase.estat.sdata.online.MeasureForClassItem'/>
+        <mapping class='kz.statbase.estat.sdata.online.ConversionTaskForQ'/>
+        <mapping class='kz.statbase.estat.sdata.online.PullUpForReportForQ'/>
+        <mapping class='kz.statbase.estat.sdata.online.ErrorOnNormalize'/>
+        <mapping class='kz.statbase.estat.sdata.online.FormNormalizationInfo'/>
+        <mapping class='kz.statbase.estat.sdata.online.FormLoadingPriority'/>
+        <mapping class='kz.statbase.estat.sdata.online.ClearedDataToCube'/>
+
+
+    </session-factory>
+
+</hibernate-configuration>
